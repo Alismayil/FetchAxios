@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+     align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 1350px;
+}
+#box :hover{
+    background-color: rgb(196, 192, 192);
+    cursor: pointer;
+}
+.card_box{
+    border: 1px solid black;
+    padding: 20px 40px;
+    border-radius: 10px;
+    height: 430px;
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.name{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    width: 200px;
+}
+img{
+    min-width: 190px;
+    border-radius: 10px;
+}
+
+.imdb{
+    color: red;
+}
